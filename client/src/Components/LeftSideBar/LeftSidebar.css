@@ -1,0 +1,92 @@
+.container_leftSidebar{
+  background-color: rgb(37, 37, 37);
+  width: 4.7rem;
+  height: calc(100vh - 3.55rem);
+  box-sizing: border-box;
+
+}
+.icon_sidebar_div{
+    color: rgba(255, 255, 255, 0.855);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+  
+
+}
+.icon_sidebar{
+    margin: auto;
+}
+.text_sidebar_icon{
+    text-align: center;
+    font-weight: 300;
+    font-size:0.85rem;
+    padding: 0.2rem;
+}
+.icon_sidebar_div:hover{
+    color: aliceblue;
+    background-color: rgb(68,68,68);
+}
+
+/* drawer sidebar*/
+.container_DrawerLeftSidebar{
+    /* height: calc(100vh - 3.5rem);*/
+    width: 100vw; 
+    display: flex;
+    position: absolute;
+    z-index: 500;
+}
+.container2_DrawerLeftSidebar{
+    width: 15rem;
+    background: rgb(28,28,28);
+    overflow-y: auto;
+    height: calc(100vh - 3.6rem);
+} 
+.Drawer_leftsidebar,.libraryBtn_Drawerleftsidebar{
+    padding-top: 0.5rem;
+    border-bottom: 2px solid rgba(128,128,128,0.298);
+}
+.icon_sidebar_div p{
+    display: flex;
+    margin: 0;
+}
+.subScription_lsdbar{
+    color: white;
+}
+.subScription_lsdbar h3{
+   text-decoration: underline;
+   margin: 20px 10px;
+}
+.chanel_lsdar{
+    display: flex;
+    cursor: pointer;
+}
+.chanel_lsdar:hover{
+    color: rgb(77,77,243);
+}
+.chanel_lsdar p{
+    background: grey;
+    border-radius: 100%;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid;
+}
+.chanel_lsdar div{
+   margin: auto;
+   width: 60%;
+}
+::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+::-webkit-scrollbar-thumb{
+    background: grey;
+    border-radius: 5rem;
+}
+.container3_DrawerLeftSidebar{
+    flex-grow: 1;
+    background-color: rgb(7 7 249 / 16%);
+   
+}

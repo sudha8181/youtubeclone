@@ -1,0 +1,64 @@
+.Container_Navbar{
+    border: 1px solid;
+    display: flex;
+    height: calc(3.5rem-2px);
+    background-color: #000000e6;;
+}
+.Burger_Logo_Navbar{
+    display: flex;
+    height: 3.3rem;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin: 0.2em;
+    padding: 0.5em;
+    border: 1px solid transparent;
+}
+.burger p{
+    width: 2.2em;
+    height: 0.1em;
+    background: black;
+    margin: 0.5px;
+   
+}
+.logo-div_Navbar{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo_title_navbar{
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+.apps_box{
+    width: 25px;
+    margin: auto 0.7rem;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.appBox{
+    border: 1px solid white;
+    width: 2px;
+    height: 2px;
+    margin: 0.1rem;
+}
+.Auth_cont_Navbar{
+    display: flex;
+    align-items: center;
+}
+.Auth_Btn{
+    margin: auto 0.5em;
+    color: #05aff8;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    padding: 0.4em;
+    gap: 0.5em;
+    cursor: pointer;
+}

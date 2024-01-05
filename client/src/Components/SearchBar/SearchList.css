@@ -1,0 +1,14 @@
+.Container_searchList{
+    background: #fff5f5;
+    position: absolute;
+    z-index: 999;
+    width: 45%;
+}
+.titleList{
+    padding: 0.5em;
+    margin: 0;
+    cursor: pointer;
+}
+.titleList:hover{
+    background-color: #0000004d;
+}
